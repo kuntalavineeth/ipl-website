@@ -1,0 +1,241 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+.logo {
+    background-color: #19398a;
+    background-image: url(b22.png);
+    background-size: cover;
+    padding: 0% 0% 0 8%;
+    color: white
+}
+
+.img1 {
+    color: white;
+}
+
+
+.scroll {
+    background-color: #19398a;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scroll img {
+    width: 60px;
+}
+
+.scroll .navbar {
+    padding: 1%;
+}
+
+.scroll .navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a {
+    margin: 12px;
+}
+
+.name {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: 20;
+    font-size: 40px;
+    color: white;
+    padding-left: 5%;
+    font-size: 1.6rem;
+}
+
+.img2 {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.name button {
+    color: white;
+    background-color: red;
+    padding: 3%;
+    border-radius: 10%;
+    border: none;
+}
+
+.final {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    z-index: 20;
+    padding-left: 4%;
+    /* background-color: rgb(101, 101, 117); */
+}
+
+.side-heading {
+    color: white;
+}
+
+.final a img {
+    width: 80%;
+    border-radius: 10%;
+    border: 1px solid white;
+    justify-content: space-evenly;
+}
+
+.final a {
+    margin-top: 95%;
+}
+
+.final1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    width: 100%;
+}
+
+.final1 p {
+    color: rgb(241, 240, 243);
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2.6rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.search {
+    width: 3%;
+}
+
+.container2 {
+    background-image: url(b11.svg);
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav h1 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav .about {
+    margin: 3%;
+    transition: transform 0.5s;
+}
+
+.nav .about:hover {
+    background-color: red;
+    color: white;
+    transform: skewX(-15deg);
+    /* border-top-style: none;
+            border-right-style: none;
+            box-shadow: 10px solid white; */
+}
+
+.about {
+    padding: 1.5%;
+    border-radius: 4px;
+    box-shadow: 10px solid black;
+    border-bottom-style: none;
+    border-left-style: none;
+    font-size: 20
+}
+
+.video {
+    background-color: rgb(4, 4, 77);
+    background-image: url(b11.svg);
+    padding: 1% 2%;
+    color: white;
+}
+
+.video img {
+    padding: 1.0%;
+}
+
+.video button {
+    margin-right: 10px;
+    margin-top: 0%;
+}
+
+.points {
+    background-image: url(b11.svg);
+
+}
+
+.points img {
+    padding: 0.5%;
+    padding-left: 5%;
+}
+
+.t1 {
+    background-image: url(b22.png);
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    padding: 10%;
+    margin: 0;
+    ;
+}
+
+.t1 button {
+    padding: 1.8%;
+    border-radius: 5%;
+    border-bottom-style: none;
+    border-left-style: none;
+    font-size: 20p
+}
+
+.t1 button:hover {
+    background-color: rgb(29, 10, 112);
+    color: white;
+
+}
+
+.points h1 {
+    padding-left: 7%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.ipl {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.p {
+    font-size: 1.3rem;
+}
+
+.header {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.topper {
+    background-color: black;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 9% 0% 9%;
+}
+
+.team p a {
+    color: grey;
+    text-decoration: none;
+}
+
+.team p a:hover {
+    text-decoration: underline;
+}
